@@ -10,3 +10,5 @@ const globalRouter = express.Router();
 globalRouter.get("/", homeController);
 globalRouter.get("/create", createController);
 globalRouter.get("/detail", detailController);
+
+export default globalRouter;
